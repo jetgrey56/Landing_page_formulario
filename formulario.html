@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link href="css/style2.css" rel="stylesheet">
+</head>
+<body bgcolor="#001324">
+    <font face="terminal" color="#00E35F" size="5">
+        <h1>>_Formulario de ingreso</h1>
+        <center>
+            <br><br>
+            <fieldset><legend></legend></fieldset>
+            <table border="2">
+                <tr><td>Ingrese su nombre</td><td><input type="text" name="caja 1" placeholder="Escribe tu nombre"/></td></tr>
+                <tr><td>Ingrese una contraseña fuerte</td><td><input type="password" name="pass1" /></td></tr>
+                <tr><td>Habilidades en temas de ciberseguridad</td><td><input type="checkbox" name="check1" value="Op1" />Basico <br>
+                    <input type="checkbox" name="intermedio" value="Op2" />Intermedio <br>
+                    <input type="checkbox" name="avanzado" value="Op3" />avanzado <br>
+                <tr><td>SO que utiliza para sus estudios</td><td><input type="checkbox" name="kali" value="Op1" />Kali Linux <br>
+                    <input type="checkbox" name="Parrot" value="Op2" />Parrot OS <br>
+                    <input type="checkbox" name="Windows" value="Op3" />Windows 10/11 <br>
+                    <input tyepe="checkbox" name="otro-so" value="Escriba otro SO" />Utilizo otro SO</td></tr>
+                <tr><td>Maquina virtual que utiliza para sus Analisis</td><td><input type="checkbox" name="virtual" value="Op1">Virtual Box<br>
+                    <input type="checkbox" name="vmware" value="Op2"/>VMware Work station pro 17</td></tr><br>    
+                <tr><td>Adjuntar Archivo para verificar su trabajo</td><td><input type="file" name="Adjuntar"></td></tr>
+                <tr><td>Seleccione el interes que posea en el area de ciberseguridad</td><td><select id="sel">
+                    <option value="a0" selected="selected">Seleccione un area</option>
+                    <option value="a1">Hacking etico</option>
+                    <option value="a2">Seguridad de redes</option>
+                    <option value="a3">Analisis forense digital</option>
+                    <option value="a4">Seguridad en dispositivos móviles</option>
+                    <option value="a5">Ciberinteligencia y análisis de amenazas</option>
+                    <option value="a6">Normativas y cumplimiento</option>
+                    <option value="a7">Gestion de identidad y acesso(IAM)</option>
+                    <option value="a8">Seguridad en la nube</option>
+                <tr><td>Eliminar formulario de ingreso</td><td><input type="reset" name="limpia" value="Eliminar formulario"></td></tr>
+                <tr><td>Envio de formulario</td><td><input type="submit" name="send" value="Enviar Formulario"></td></tr>           
+            </table>
+            <div class="return-button">
+                <a href="file:///C:/Users/firce/Desktop/Landing%20page/index.html" class="btn btn-primary">Regresar al menu principal</a>
+            </div>
+</body>
+
+</html>
